@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ApiService } from './shared/api.service';
 import { HeaderComponent } from './component/header/header.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HashLocationStrategy,LocationStrategy } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
