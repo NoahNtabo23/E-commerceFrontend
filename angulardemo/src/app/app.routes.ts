@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { ProductDetailComponent } from './component/product-detail/product-detail.component';
 import { HeaderComponent } from './component/header/header.component';
 
+import { CartPageComponent } from './component/cart-page/cart-page.component';
+
 export const routes: Routes = [
     {
         path:'home',title: 'Home Page',component: HomeComponent
@@ -30,5 +32,8 @@ export const routes: Routes = [
     },
     {
         path:'product-detail/:productid',title: 'Product Detail Page',component: ProductDetailComponent
+    },
+    {
+        path:'cart-page',title: 'Cart Page',component: CartPageComponent
     }
 ];

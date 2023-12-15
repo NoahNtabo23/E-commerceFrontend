@@ -39,6 +39,25 @@ export class ApiService {
     this.productList.next(this.cartitemList)
   }
 
+//total calculation
+calculateprice(){
+  let total=0;
+  this.cartitemList.map((a:any)=>{
+    total += a.price;
+  })
+  return total;
+}
+
+//remove items from cart
+removeallitems(){
+  this.cartitemList=[];
+  this.productList.next(this.cartitemList)
+}
+
+
+
+
+
 
 
 }

@@ -1,10 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from '../../shared/api.service';
+import { HttpClientModule } from '@angular/common/http';
+import { ActivatedRoute, RouterLink,RouterOutlet } from '@angular/router';
+import { CommonModule } from '@angular/common'
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [HttpClientModule,CommonModule,RouterLink,RouterOutlet],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
