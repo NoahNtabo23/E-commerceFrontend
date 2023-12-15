@@ -17,3 +17,9 @@ body{
 a{
     text-decoration: none;
 }
+/* Add this CSS in your styles or a separate stylesheet */
+.hover-effect:hover {
+    transform: scale(1.1); /* Increase the scale on hover for a zoom effect */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+  }
+  

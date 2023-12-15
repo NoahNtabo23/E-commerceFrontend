@@ -16,7 +16,7 @@
             <div class="card mt-2">
                 <div class="card-body">
                     <div class="card-img-actions">
-                        <img routerLink="/product-detail/{{item._id}}"  *ngFor="let image of item.images" [src]="image.url"  class="card-img img-fluid">
+                        <img routerLink="/product-detail/{{item._id}}"  *ngFor="let image of item.images" [src]="image.url"  class="card-img img-fluid hover-effect">
                     </div>
                 </div>
     
@@ -30,7 +30,7 @@
                     <h3 class="mb-0 font-weight-semibold">$ {{item.price}}</h3>
                     <button  routerLink="/product-detail/{{item._id}}" class="btn btn-sm btn-dark mt-2"><i class="fa fa-solid fa-info mr-2"></i>&nbsp;&nbsp;view details</button>
                     <button (click)="addtocart(item)" class="btn btn-sm btn-warning mt-2"><i class="fa fa-cart-plus mr-2"></i>&nbsp;Add to cart</button>&nbsp;
-                    <button (click)="removeitem(item)" class="btn btn-sm btn-danger mt-2"><i class="fa fa-remove mr-2"></i>&nbsp;Remove Item</button>
+                    
                 </div>
             </div>
         </div>

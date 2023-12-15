@@ -57,7 +57,7 @@
                 <textarea placeholder="Address" class="form-control" formControlName="address" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
            
-            <button (click)="onsubmit()"[disabled]="this.myform.invalid" type="submit" class="btn btn-success mt-2">Order</button>&nbsp;
+            <button routerLink="/order-page"  (click)="onsubmit()"[disabled]="this.myform.invalid" type="submit" class="btn btn-success mt-2">Order</button>&nbsp;
             <button (click)="cancel()"  type="submit" class="btn btn-dark mt-2">Cancel</button>
           </form>
         </div>

@@ -1,8 +1,8 @@
-.dropdown:hover>.dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
+
+
+
+@media (min-width: 768px) {
+    .dropdown {
+        margin-left: 20px; /* Adjust the margin for larger screens if needed */
+    }
+}

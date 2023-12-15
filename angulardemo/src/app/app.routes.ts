@@ -10,6 +10,7 @@ import { ProductDetailComponent } from './component/product-detail/product-detai
 import { HeaderComponent } from './component/header/header.component';
 
 import { CartPageComponent } from './component/cart-page/cart-page.component';
+import { OrderPageComponent } from './component/order-page/order-page.component';
 
 export const routes: Routes = [
     {
@@ -35,5 +36,8 @@ export const routes: Routes = [
     },
     {
         path:'cart-page',title: 'Cart Page',component: CartPageComponent
+    },
+    {
+        path:'order-page',title: 'Order-Page',component: OrderPageComponent
     }
 ];
