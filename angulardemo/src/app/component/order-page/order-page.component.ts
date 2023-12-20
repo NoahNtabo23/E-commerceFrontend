@@ -11,6 +11,7 @@ import { Router } from '@angular/router';
 })
 export class OrderPageComponent implements OnInit {
   public totalamount:number = 0;
+  public username: any;
   constructor(private api:ApiService,private router:Router){}
   ngOnInit(): void {
     setTimeout(()=>{
