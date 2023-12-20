@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 
+
 import { ProductViewComponent } from './component/product-view/product-view.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductDetailComponent } from './component/product-detail/product-detail.component';
